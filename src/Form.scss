@@ -1,0 +1,35 @@
+.form {
+  height: 700px;
+  max-width: 600px;
+  overflow: hidden;
+  overflow-x: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+
+  &__table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+  }
+
+  &__titles {
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+
+  &-cell {
+    padding: 0 1rem;
+    
+  }
+
+  &__body {
+    &__row{
+      height: 70px;
+
+      &-cell {
+        border: 1px solid black;
+      }
+    }
+  }
+}
